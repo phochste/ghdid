@@ -1,0 +1,26 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/suites/jws-2020/v1"
+  ],
+  "id": "did:github:phochste",
+  "verificationMethod": [
+    {
+      "id": "did:github:phochste#owner",
+      "type": "JsonWebKey2020",
+      "controller": "did:github:phochste",
+      "publicKeyJwk": {
+        "kty": "EC",
+        "crv": "secp256k1",
+        "x": "Q8Ox0K2y6xp7IBRGDXcMvL1D3CEjuhT+iDekS9qHzKQ=",
+        "y": "Lld4ybJjzFBXk6CTh4SB4ptlxHS85Tuh72JZNYk2J5M="
+      }
+    }
+  ],
+  "authentication": [
+    "did:github:patickhochstenbach.net#owner"
+  ],
+  "assertionMethod": [
+    "did:github:phochste#owner"
+  ]
+}
